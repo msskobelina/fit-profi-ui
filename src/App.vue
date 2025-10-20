@@ -7,7 +7,8 @@
       </v-btn>
       <v-app-bar-title class="font-weight-bold">FitProfi</v-app-bar-title>
       <v-spacer />
-      <v-btn color="primary" variant="flat" class="rounded-xl">Увійти</v-btn>
+      <v-btn variant="text" class="mr-2">Увійти</v-btn>
+      <v-btn color="primary" variant="flat" class="rounded-xl">Зареєструватись</v-btn>
     </v-app-bar>
 
     <!-- Основна секція -->

@@ -3,6 +3,7 @@ import App from './App.vue'
 
 import 'vuetify/styles'
 import { createVuetify } from 'vuetify'
+import { initAnalytics, track } from "./analytics/mixpanel";
 
 const vuetify = createVuetify({
     theme: {
@@ -18,5 +19,8 @@ const vuetify = createVuetify({
         },
     },
 })
+
+initAnalytics()
+track("Frontend Started")
 
 createApp(App).use(vuetify).mount('#app')

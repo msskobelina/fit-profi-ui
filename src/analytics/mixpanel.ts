@@ -1,6 +1,6 @@
 import mixpanel from "mixpanel-browser";
 
-const token = import.meta.env.VITE_MIXPANEL_TOKEN as string | undefined;
+const token = "736d309cabec2b9b3a8aa93d60e46cc4" as string | undefined;
 const env = (import.meta.env.VITE_APP_ENV as string | undefined) ?? "local";
 
 let inited = false;

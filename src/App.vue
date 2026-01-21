@@ -558,7 +558,7 @@ async function onLogout() {
     }
     track("Logout Success")
   } catch {
-    track("Logout Failed", { error: e?.message || "unknown" })
+    track("Logout Failed", { error: "unknown" })
   } finally {
     track("Logout");
     resetAnalytics();
